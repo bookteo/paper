@@ -108,19 +108,63 @@
         
     -->
     
-    <div id="title" class="step" data-scale="2">
+    <div id="title" class="step" data-scale="5">
         <try>Paper Flow</try>
     </div>
 
-    <div id="eyestrain" class="step" data-x="0" data-y="1000"  data-scale="2">
-        <p>How do you feel after <strong>8</strong> <br/>
-        hours in the office?</a>
+     <div id="problem1" class="step"  data-y="3000"  data-scale="5" width="800" height="600">
+        <img src="images/strainedEyes.jpg" class="vollbild" alt="">
+    </div>
+
+    <div id="question1" class="step"  data-y="6000"  data-scale="5">
+        <p>Have you ever felt <strong>like</strong> this?
         </p>
     </div>
 
-    <div id="eyestrainpic" class="step"  data-y="2000" data-rotate-x="-90" data-scale="2" width="800" height="600">
-        <img src="images/strainedEyes.jpg" class="vollbild" alt="">
+    <div id="solution1" class="step"  data-y="9000"  data-scale="5">
+        <p>We have a solution for you.<br/>
+        </p>
     </div>
+
+    <!--
+    animate the word sunny to represent a glowing sun
+    -->
+    <div id="question2" class="step"  data-x="5000" data-y="0" data-rotate="90"  data-scale="5">
+        <p>Or did you ever spend a <b>sunny</b> day inside your office?
+    </div>
+
+    <div id="problem2" class="step"  data-x="5000" data-y="6000" data-rotate="90"  data-scale="5">
+        <img src="images/insideOfficeSunOutside.jpg" class="vollbild" alt="Like this guy">               
+        <p style="text-align: center;">Like this guy</p>
+
+    </div>
+    
+    <div id="question3" class="step"  data-x="5000" data-y="12000" data-rotate="90"  data-scale="5">
+        <p>And returned home just <b>after</b> sunset?
+    </div>
+
+    <div id="problem3" class="step"  data-x="5000" data-y="18000" data-rotate="90"  data-scale="5">
+        <img src="images/duskReturnHome.jpg" class="vollbild" alt="">
+        <p style="text-align: center;">Like this guy</p>
+    </div>
+
+    <div id="solution2" class="step"  data-x="5000" data-y="24000"   data-rotate="90" data-scale="5">
+        <p>We've got a solution for you <b>too</b>.
+        </p>
+    </div>
+
+    <div id="introducing" class="step"  data-x="000" data-y="24000"   data-rotate="180" data-scale="5">
+        <p style="text-align:center;font-size: 100px">Introducing
+        </p>
+    </div>
+
+    <div id="problem4" class="step"  data-x="000" data-y="24000" data-z="-10000" data-rotate="180"  data-scale="1">
+        <img src="images/paperFront.png" class="vollbild" alt="">
+        <p style="text-align: center;">Our fast color Epaper Monitor</p>
+        <p class="substep" style="text-align: center;">Paper Flow</p>
+    </div>
+
+   
     <!--
         
         This element introduces rotation.
@@ -128,7 +172,7 @@
         Notation shouldn't be a surprise. We use `data-rotate="90"` attribute, meaning that this
         element should be rotated by 90 degrees clockwise.
         
-    -->
+    
     <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
         <p>It’s a <strong>presentation tool</strong> <br/>
         inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>
@@ -139,7 +183,6 @@
         <p>visualize your <b>big</b> <span class="thoughts">thoughts</span></p>
     </div>
 
-    <!--
         
         And now it gets really exciting! We move into third dimension!
         
@@ -147,12 +190,12 @@
         `data-z`. In the example below we use `data-z="-3000"` meaning that element should be
         positioned far away from us (by 3000px).
         
-    -->
+
     <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
         <p>and <b>tiny</b> ideas</p>
     </div>
 
-    <!--
+
         
         This step here doesn't introduce anything new when it comes to data attributes, but you
         should notice in the demo that some words of this text are being animated.
@@ -175,7 +218,7 @@
         previous step. So to get back to 0 on the z-axis, we must set it to 0.
         See src/plugins/rel/README.md for more information.
         
-    -->
+
     <div id="ing" class="step" data-x="3500" data-y="-850" data-z="0" data-rotate="270" data-scale="6">
         <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
     </div>
@@ -193,7 +236,7 @@
         <p>one more thing...</p>
     </div>
 
-    <!--
+ 
         
         And the last one shows full power and flexibility of impress.js.
         
@@ -204,13 +247,13 @@
         You can of course rotate it around Z axis with `data-rotate-z` - it has exactly the same effect
         as `data-rotate` (these two are basically aliases).
         
-    -->
+ 
     <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
         <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it’s</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
         <span class="footnote">* beat that, prezi ;)</span>
     </div>
 
-    <!--
+ 
         
         So to summarize of all the possible attributes used to position presentation steps, we have:
         
@@ -225,7 +268,7 @@
         CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
         
     -->
-    <div id="overview" class="step" data-x="3000" data-y="1500" data-z="0" data-scale="10">
+    <div id="overview" class="step" data-x="3000" data-y="12000" data-z="0" data-scale="50">
     </div>
 
 </div>
@@ -235,7 +278,6 @@
     For now, I'll just tell you that this adds some graphical controls to navigate the
     presentation. In the CSS file you can style them as you want. We've put them bottom right.
 -->
-<div id="impress-toolbar"></div>
 
 <!--
     
@@ -261,10 +303,7 @@
     Just sayin' ;)
     
 -->
-<div class="hint">
-    <p>Use a spacebar or arrow keys to navigate. <br/>
-       Press 'P' to launch speaker console.</p>
-</div>
+
 <script>
 if ("ontouchstart" in document.documentElement) { 
     document.querySelector(".hint").innerHTML = "<p>Swipe left or right to navigate</p>";
