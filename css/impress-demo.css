@@ -82,16 +82,16 @@ table {
     want to leave anybody behind.
 */
 body {
-    font-family: Quicksand, sans-serif;
+    font-family: 'PT Sans', sans-serif;
     min-height: 740px;
 
-    background: rgb(215, 215, 215);
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
-    background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background: rgb(255, 197, 59);
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(255, 197, 59)), to(rgb(255, 242, 196)));
+    background: -webkit-radial-gradient(rgb(255, 197, 59), rgb(255, 242, 196));
+    background:    -moz-radial-gradient(rgb(255, 197, 59), rgb(255, 242, 196));
+    background:     -ms-radial-gradient(rgb(255, 197, 59), rgb(255, 242, 196));
+    background:      -o-radial-gradient(rgb(255, 197, 59), rgb(255, 242, 196));
+    background:         radial-gradient(rgb(255, 197, 59), rgb(255, 242, 196));
 }
 
 /*
@@ -175,7 +175,7 @@ a:focus {
     -o-box-sizing:      border-box;
     box-sizing:         border-box;
 
-    font-family: Quicksand, sans-serif;
+    font-family: 'PT Serif', georgia, serif;
     font-size: 48px;
     line-height: 1.5;
 }
@@ -227,7 +227,7 @@ a:focus {
     color: rgb(102, 102, 102);
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 
-    font-family: Quicksand, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -1px;
