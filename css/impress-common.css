@@ -205,6 +205,25 @@ img.fullscreen {
     font-size: 1em;
 }
 
+.divSquare{
+    width:45%; 
+    height:200px; 
+    float: left;
+    overflow: hidden;
+    margin: 10px;
+}
+
+ .divSquare img{
+    width: 100%;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 
 
